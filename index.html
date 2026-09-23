@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BODYBUILD FITNESS | Premium Commercial & Home Gym Equipment</title>
+  <meta name="description" content="Industrial-grade cardio machines, heavy-duty strength equipment, and home gym gear engineered for peak athletic performance.">
+  
+  <!-- Google Fonts: Archivo Black, Syne, Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@400;500;600;700&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Sticky Top Navigation -->
+  <header class="site-header" id="siteHeader">
+    <div class="nav-container">
+      <a href="#hero" class="brand-logo" id="brandLogo" aria-label="Bodybuild Fitness Home">
+        <!-- Dumbbell Icon -->
+        <svg class="logo-icon" viewBox="0 0 64 32" fill="currentColor">
+          <rect x="2" y="8" width="6" height="16" rx="2" />
+          <rect x="10" y="4" width="8" height="24" rx="2" />
+          <rect x="20" y="13" width="24" height="6" rx="2" />
+          <rect x="46" y="4" width="8" height="24" rx="2" />
+          <rect x="56" y="8" width="6" height="16" rx="2" />
+        </svg>
+        <span class="logo-text">BODYBUILD<span class="logo-sub">FITNESS</span></span>
+      </a>
+
+      <nav class="main-nav" id="mainNav">
+        <ul class="nav-list">
+          <li><a href="#hero" class="nav-link active">HOME</a></li>
+          <li><a href="#cardio" class="nav-link">CARDIO</a></li>
+          <li><a href="#featured" class="nav-link">EQUIPMENT</a></li>
+          <li><a href="#support" class="nav-link">SUPPORT</a></li>
+          <li><a href="#reviews" class="nav-link">REVIEWS</a></li>
+          <li><a href="#contact" class="nav-link">CONTACT</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <button class="cart-trigger-btn" id="cartTriggerBtn" aria-label="View Cart">
+          <svg class="cart-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="9" cy="21" r="1"></circle>
+            <circle cx="20" cy="21" r="1"></circle>
+            <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+          </svg>
+          <span class="cart-badge" id="cartBadge">1</span>
+        </button>
+        <button class="nav-cta-btn" id="headerShopBtn">SHOP NOW</button>
+        <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Open Navigation Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content Wrapper -->
+  <main>
+
+    <!-- SECTION 1: HERO -->
+    <section class="hero-section" id="hero">
+      <div class="hero-container">
+        <div class="hero-content">
+          <h1 class="hero-title">
+            GET THE<br>
+            RIGHT GYM<br>
+            FOR YOUR<br>
+            HOME
+          </h1>
+          <button class="btn btn-primary hero-btn" id="heroShopBtn">SHOP NOW</button>
+        </div>
+        <div class="hero-media">
+          <div class="media-overlay-left"></div>
+          <img src="assets/images/hero-workout.jpg" alt="Athletic workout session in industrial gym" class="hero-img">
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 2: CARDIO EQUIPMENT -->
+    <section class="cardio-section" id="cardio">
+      <div class="cardio-container">
+        <!-- Left Column: Image with Red Chevron Overlay -->
+        <div class="cardio-media-col">
+          <div class="chevron-accent" aria-hidden="true">
+            <svg viewBox="0 0 120 40" class="chevron-svg">
+              <!-- Triple Chevron <<<< -->
+              <path d="M30 4 L14 20 L30 36" fill="none" stroke="#FF2A2A" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M55 4 L39 20 L55 36" fill="none" stroke="#FF2A2A" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M80 4 L64 20 L80 36" fill="none" stroke="#FF2A2A" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M105 4 L89 20 L105 36" fill="none" stroke="#FF2A2A" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <div class="cardio-img-wrapper">
+            <img src="assets/images/cardio-deadlift.jpg" alt="Female athlete deadlifting a barbell" class="cardio-img">
+          </div>
+        </div>
+
+        <!-- Right Column: Content -->
+        <div class="cardio-content-col">
+          <h2 class="section-heading-red">
+            CARDIO<br>
+            EQUIPMENT<br>
+            FOR THE HOME<br>
+            GYM<br>
+            OR STUDIO.
+          </h2>
+          <p class="section-body-text">
+            Engineered for hardcore athletes and dedicated home fitness enthusiasts. Our premium cardio and power machines combine commercial-grade 11-gauge steel, frictionless magnetic resistance, and whisper-quiet ergonomics.
+          </p>
+          <p class="section-body-text sub-text">
+            Whether you are outfitting a full boutique commercial facility or a high-performance personal garage studio, get the industrial durability your regimen demands.
+          </p>
+          <div class="cardio-actions">
+            <button class="btn btn-primary" id="cardioExploreBtn">EXPLORE CARDIO</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 3: FEATURED PRODUCT CARD -->
+    <section class="featured-section" id="featured">
+      <div class="featured-card-wrapper">
+        <div class="featured-card">
+          <!-- Card Left Column: Product Info -->
+          <div class="card-info-col">
+            <h3 class="product-title-red">A1 ELLIPTICAL<br>TRAINER</h3>
+            
+            <ul class="feature-bullets">
+              <li>Feature your package or plan inclusions</li>
+              <li>In bullet form</li>
+              <li>For easy readability</li>
+              <li>Even for people on mobile</li>
+            </ul>
+
+            <div class="card-btn-group">
+              <button class="btn btn-primary" id="productShopNowBtn">SHOP NOW</button>
+              <button class="btn btn-outline" id="productDetailsBtn">FULL DETAILS</button>
+            </div>
+          </div>
+
+          <!-- Card Right Column: Image with Floating Price Badge -->
+          <div class="card-media-col">
+            <img src="assets/images/equipment-trainer.jpg" alt="Athlete training with heavy battle ropes" class="product-card-img">
+            
+            <!-- Floating White Price Badge -->
+            <div class="floating-price-badge" id="priceBadge">
+              <div class="badge-price">$499.00</div>
+              <div class="badge-sub">Free Shipping</div>
+              <div class="badge-sub">30-Day Guarantee</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 4: SUPPORT CENTER -->
+    <section class="support-section" id="support">
+      <div class="support-backdrop">
+        <img src="assets/images/support-boxing.jpg" alt="Boxing training ring scene" class="support-bg-img">
+        <div class="support-overlay"></div>
+      </div>
+      <div class="support-content">
+        <h2 class="support-title">SUPPORT CENTER</h2>
+        <p class="support-subtitle">
+          Use this space to highlight your most popular services. You can also use this for your flagship products.
+        </p>
+        <button class="btn btn-primary support-btn" id="getSupportBtn">GET SUPPORT</button>
+      </div>
+    </section>
+
+    <!-- SECTION 5: CUSTOMER REVIEWS -->
+    <section class="reviews-section" id="reviews">
+      <div class="reviews-container">
+        <!-- Review Card 1 -->
+        <article class="review-card">
+          <div class="quote-icon" aria-hidden="true">
+            <svg viewBox="0 0 32 32" class="quote-svg">
+              <path d="M10 8c-3.3 0-6 2.7-6 6v10h10V14H8c0-1.1.9-2 2-2h1V8h-1zm16 0c-3.3 0-6 2.7-6 6v10h10V14h-6c0-1.1.9-2 2-2h1V8h-1z" fill="#FF2A2A"/>
+            </svg>
+          </div>
+          <div class="review-text-body">
+            <p>
+              Setting up my home gym with this equipment completely transformed my training routine. The build quality feels just like a commercial facility, rock solid and exceptionally smooth.
+            </p>
+            <p>
+              Delivery was prompt, packaging was pristine, and assembly instructions were crystal clear. Best fitness investment I've made in years.
+            </p>
+          </div>
+          <div class="review-author">
+            <h4>ARIADNE<br>SYNDER</h4>
+          </div>
+        </article>
+
+        <!-- Review Card 2 -->
+        <article class="review-card">
+          <div class="quote-icon" aria-hidden="true">
+            <svg viewBox="0 0 32 32" class="quote-svg">
+              <path d="M10 8c-3.3 0-6 2.7-6 6v10h10V14H8c0-1.1.9-2 2-2h1V8h-1zm16 0c-3.3 0-6 2.7-6 6v10h10V14h-6c0-1.1.9-2 2-2h1V8h-1z" fill="#FF2A2A"/>
+            </svg>
+          </div>
+          <div class="review-text-body">
+            <p>
+              Heavy-duty construction that doesn't wobble even during the most explosive workouts. Every single weld and component screams premium craftsmanship and longevity.
+            </p>
+            <p>
+              Customer service went above and beyond when I needed extra accessories. I recommend this gear to everyone at my training club.
+            </p>
+          </div>
+          <div class="review-author">
+            <h4>SAMUEL<br>CLINTON</h4>
+          </div>
+        </article>
+
+        <!-- Review Card 3 -->
+        <article class="review-card">
+          <div class="quote-icon" aria-hidden="true">
+            <svg viewBox="0 0 32 32" class="quote-svg">
+              <path d="M10 8c-3.3 0-6 2.7-6 6v10h10V14H8c0-1.1.9-2 2-2h1V8h-1zm16 0c-3.3 0-6 2.7-6 6v10h10V14h-6c0-1.1.9-2 2-2h1V8h-1z" fill="#FF2A2A"/>
+            </svg>
+          </div>
+          <div class="review-text-body">
+            <p>
+              The compact footprint fit perfectly in our spare room without sacrificing any functionality. Whisper-quiet operation during early morning sessions before the family wakes up.
+            </p>
+            <p>
+              From order to first workout was completely effortless. Sturdy, ergonomic, and aesthetic enough to look great anywhere in the house.
+            </p>
+          </div>
+          <div class="review-author">
+            <h4>STELLA<br>ORNELAS</h4>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- SECTION 6: CONTACT US & FOOTER -->
+    <section class="contact-section" id="contact">
+      <!-- Top Image with Overlaid Headline -->
+      <div class="contact-banner">
+        <img src="assets/images/contact-pushup.jpg" alt="Muscular athlete doing floor push-ups" class="contact-banner-img">
+        <div class="contact-banner-overlay"></div>
+        <h2 class="contact-overlay-title">CONTACT US</h2>
+      </div>
+
+      <!-- Contact Details 3 Columns -->
+      <div class="contact-details-container">
+        <div class="contact-col">
+          <span class="contact-label">EMAIL</span>
+          <a href="mailto:admin@yourdomain.com" class="contact-value">admin@yourdomain.com</a>
+        </div>
+
+        <div class="contact-col">
+          <span class="contact-label">PHONE</span>
+          <a href="tel:1234567890" class="contact-value">(123) 456-7890</a>
+        </div>
+
+        <div class="contact-col">
+          <span class="contact-label">SOCIAL</span>
+          <div class="social-icons">
+            <a href="#" aria-label="Facebook" class="social-link">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+                <path d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95C18.05 21.45 22 17.19 22 12z"/>
+              </svg>
+            </a>
+            <a href="#" aria-label="Instagram" class="social-link">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+              </svg>
+            </a>
+            <a href="#" aria-label="Twitter / X" class="social-link">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+                <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bottom Credits Bar -->
+      <div class="footer-bar">
+        <div class="footer-bar-content">
+          <p>© 2026 BODYBUILD FITNESS. ALL RIGHTS RESERVED.</p>
+          <div class="footer-links">
+            <a href="#hero">Privacy Policy</a>
+            <span class="sep">•</span>
+            <a href="#hero">Terms of Service</a>
+            <span class="sep">•</span>
+            <a href="#hero">Back to Top ↑</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- MODAL 1: SHOPPING CART / ORDER DRAWER -->
+  <div class="modal-backdrop" id="shopModal" aria-hidden="true">
+    <div class="modal-box">
+      <button class="modal-close" id="closeShopModal" aria-label="Close modal">&times;</button>
+      <div class="modal-header">
+        <span class="modal-tag">EQUIPMENT ORDER</span>
+        <h3 class="modal-title">A1 ELLIPTICAL TRAINER</h3>
+      </div>
+      <div class="modal-body">
+        <div class="modal-product-summary">
+          <img src="assets/images/equipment-trainer.jpg" alt="A1 Trainer" class="modal-thumb">
+          <div class="modal-prod-info">
+            <div class="modal-price">$499.00</div>
+            <div class="modal-status">✓ IN STOCK • SHIPS IN 24H</div>
+            <p class="modal-desc">Heavy-duty dual resistance, 32 magnetic resistance levels, high-contrast LCD performance console.</p>
+          </div>
+        </div>
+
+        <div class="modal-options">
+          <label class="option-label">SELECT FINISH:</label>
+          <div class="color-options">
+            <button class="color-pill active" data-color="Matte Black">Matte Stealth Black</button>
+            <button class="color-pill" data-color="Industrial Slate">Industrial Slate</button>
+          </div>
+        </div>
+
+        <div class="modal-perks">
+          <div class="perk-item">✓ Free Freight Delivery & Curbside Drop</div>
+          <div class="perk-item">✓ 30-Day In-Home Trial Guarantee</div>
+          <div class="perk-item">✓ 10-Year Commercial Frame Warranty</div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-primary btn-full" id="confirmOrderBtn">CHECKOUT NOW • $499.00</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL 2: PRODUCT FULL DETAILS -->
+  <div class="modal-backdrop" id="detailsModal" aria-hidden="true">
+    <div class="modal-box details-box">
+      <button class="modal-close" id="closeDetailsModal" aria-label="Close modal">&times;</button>
+      <div class="modal-header">
+        <span class="modal-tag">PRODUCT SPECIFICATIONS</span>
+        <h3 class="modal-title">A1 ELLIPTICAL TRAINER</h3>
+      </div>
+      <div class="modal-body">
+        <table class="specs-table">
+          <tr>
+            <td><strong>Frame Material</strong></td>
+            <td>11-Gauge Structural Grade Tubular Steel</td>
+          </tr>
+          <tr>
+            <td><strong>Flywheel Weight</strong></td>
+            <td>38 lbs (17.2 kg) Precision-Balanced</td>
+          </tr>
+          <tr>
+            <td><strong>Resistance System</strong></td>
+            <td>WhisperQuiet™ Magnetic Eddy-Current Braking</td>
+          </tr>
+          <tr>
+            <td><strong>Max User Weight</strong></td>
+            <td>420 lbs (190 kg)</td>
+          </tr>
+          <tr>
+            <td><strong>Footprint</strong></td>
+            <td>68" L x 28" W x 65" H (Compact Studio Fit)</td>
+          </tr>
+          <tr>
+            <td><strong>Connectivity</strong></td>
+            <td>Bluetooth FTMS, Heart Rate Polar Compatible</td>
+          </tr>
+        </table>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-primary btn-full" id="detailsToShopBtn">BUY NOW ($499.00)</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL 3: SUPPORT REQUEST MODAL -->
+  <div class="modal-backdrop" id="supportModal" aria-hidden="true">
+    <div class="modal-box">
+      <button class="modal-close" id="closeSupportModal" aria-label="Close modal">&times;</button>
+      <div class="modal-header">
+        <span class="modal-tag">DEDICATED SUPPORT</span>
+        <h3 class="modal-title">GET IN TOUCH WITH AN EXPERT</h3>
+      </div>
+      <form class="modal-form" id="supportForm">
+        <div class="form-group">
+          <label for="supportName">FULL NAME</label>
+          <input type="text" id="supportName" class="form-input" placeholder="e.g. Samuel Clinton" required>
+        </div>
+        <div class="form-group">
+          <label for="supportEmail">EMAIL ADDRESS</label>
+          <input type="email" id="supportEmail" class="form-input" placeholder="e.g. samuel@example.com" required>
+        </div>
+        <div class="form-group">
+          <label for="supportTopic">INQUIRY TYPE</label>
+          <select id="supportTopic" class="form-input">
+            <option>Home Gym Layout Consultation</option>
+            <option>Commercial Equipment Order</option>
+            <option>Warranty & Technical Service</option>
+            <option>Shipping & Delivery Status</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="supportMessage">MESSAGE</label>
+          <textarea id="supportMessage" class="form-input" rows="3" placeholder="Tell us about your fitness space or equipment questions..." required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-full">SUBMIT REQUEST</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Interactive Toast Notification -->
+  <div class="toast-notification" id="toastNotification" aria-live="polite">
+    <div class="toast-icon">✓</div>
+    <div class="toast-text" id="toastText">Action successful!</div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
